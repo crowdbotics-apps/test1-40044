@@ -10,8 +10,8 @@ const Untitled3 = () => {
       position: "relative",
       flex: 1,
       alignItems: "start"
-    }}><Text style={styles.lOhmvlPA}>Email ID</Text><Text style={styles.pQLqikRr}>Password</Text></ScrollView>
-    <TextInput style={styles.TxRIaxhZ}></TextInput></SafeAreaView>;
+    }}><Text style={styles.lOhmvlPA}>Email ID</Text><Text style={styles.pQLqikRr}>Password</Text><TextInput style={styles.suahXEyk}></TextInput></ScrollView>
+    <TextInput style={styles.TxRIaxhZ}></TextInput><Text style={styles.CCvopeGM}>Lorem ipsum…</Text></SafeAreaView>;
 };
 
 const styles = StyleSheet.create({
@@ -37,11 +37,27 @@ const styles = StyleSheet.create({
   TxRIaxhZ: {
     backgroundColor: "#ffffff",
     borderColor: "#cccccc",
-    width: 202,
+    width: 206,
     height: 30,
     position: "absolute",
-    top: 0,
-    left: 154
+    top: 9,
+    left: 141
+  },
+  CCvopeGM: {
+    width: 100,
+    height: 50,
+    lineHeight: 14,
+    fontSize: 14,
+    borderRadius: 0
+  },
+  suahXEyk: {
+    backgroundColor: "#ffffff",
+    borderColor: "#cccccc",
+    width: 212,
+    height: 35,
+    position: "absolute",
+    left: 139,
+    top: 55
   }
 });
 export default Untitled3;
