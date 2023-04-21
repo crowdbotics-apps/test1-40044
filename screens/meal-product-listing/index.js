@@ -183,7 +183,9 @@ const styles = StyleSheet.create({
     borderRadius: 10
   },
   btnText: {
-    color: "#fff"
+    color: "#fff",
+    width: 26,
+    height: 3
   },
   btnIcon: {
     height: 12,

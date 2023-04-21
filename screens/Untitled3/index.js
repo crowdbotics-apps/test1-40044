@@ -11,7 +11,7 @@ const Untitled3 = () => {
       position: "relative",
       flex: 1,
       alignItems: "start"
-    }} style={styles.XFUMEzxR}><Text style={styles.lOhmvlPA}>Email ID</Text><Text style={styles.pQLqikRr}>Password</Text><TextInput style={styles.suahXEyk}></TextInput><View style={styles.RggRLvlb}></View></ScrollView>
+    }} style={styles.XFUMEzxR}><Text style={styles.lOhmvlPA}>Email ID</Text><Text style={styles.pQLqikRr}>Password</Text><TextInput style={styles.suahXEyk}></TextInput><Text style={styles.InVaxWEy}>Login</Text><View style={styles.tyHwfklc}></View></ScrollView>
     <TextInput style={styles.TxRIaxhZ}></TextInput></SafeAreaView>;
 };
 
@@ -53,20 +53,32 @@ const styles = StyleSheet.create({
     left: 139,
     top: 55
   },
-  RggRLvlb: {
-    height: 60,
-    width: 140,
-    backgroundColor: "#491616",
-    borderRadius: 0,
-    color: "#777777",
-    position: "absolute",
-    top: 179,
-    left: 71,
-    borderColor: "#4d1313"
-  },
   XFUMEzxR: {
     backgroundColor: "#8d8fac",
     borderRadius: 1
+  },
+  InVaxWEy: {
+    width: 145,
+    height: 72,
+    lineHeight: 14,
+    fontSize: 29,
+    borderRadius: 0,
+    position: "absolute",
+    top: 268,
+    left: 52,
+    fontWeight: "700",
+    color: "#1c1818",
+    textAlign: "center"
+  },
+  tyHwfklc: {
+    height: 77,
+    width: 140,
+    backgroundColor: "#E4E4E4",
+    borderRadius: 0,
+    color: "#777777",
+    position: "absolute",
+    top: 174,
+    left: 52
   }
 });
 export default Untitled3;
