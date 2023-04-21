@@ -56,7 +56,7 @@ const styles = StyleSheet.create({
   RggRLvlb: {
     height: 60,
     width: 140,
-    backgroundColor: "#E4E4E4",
+    backgroundColor: "#491616",
     borderRadius: 0,
     color: "#777777",
     position: "absolute",
@@ -65,7 +65,8 @@ const styles = StyleSheet.create({
     borderColor: "#4d1313"
   },
   XFUMEzxR: {
-    backgroundColor: "#8d8fac"
+    backgroundColor: "#8d8fac",
+    borderRadius: 1
   }
 });
 export default Untitled3;
