@@ -1,4 +1,3 @@
-import React from "react";
 import { StyleSheet, ScrollView, SafeAreaView } from "react-native";
 
 const Untitled4 = () => {
